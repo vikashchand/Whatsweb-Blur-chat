@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Left Box",
+  "version": "1.0",
+  "description": "Create a rectangular box on the left side of WhatsApp Web",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
